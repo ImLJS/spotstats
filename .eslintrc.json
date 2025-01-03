@@ -1,7 +1,7 @@
 {
   "extends": [
     "next/core-web-vitals",
-    "plugin:unicorn/recommended",
+    "next/typescript",
     "plugin:import/recommended",
     "plugin:prettier/recommended"
   ],
@@ -10,32 +10,13 @@
   ],
   "rules": {
     "simple-import-sort/exports": "error",
-    "simple-import-sort/imports": "error",
-    "unicorn/no-array-callback-reference": "off",
-    "unicorn/no-array-for-each": "off",
-    "unicorn/no-array-reduce": "off",
-    "unicorn/prevent-abbreviations": [
-      "error",
-      {
-        "allowList": {
-          "e2e": true
-        },
-        "replacements": {
-          "props": false,
-          "ref": false,
-          "params": false
-        }
-      }
-    ]
+    "simple-import-sort/imports": "error"
   },
   "overrides": [
     {
       "files": [
         "*.js"
-      ],
-      "rules": {
-        "unicorn/prefer-module": "off"
-      }
+      ]
     }
   ]
 }
