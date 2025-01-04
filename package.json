@@ -6,9 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint:fix": "next lint --fix",
-    "type-check": "tsc -b",
+    "lint": "next lint --fix",
     "format": "prettier src/ --write"
   },
   "dependencies": {
