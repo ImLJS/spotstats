@@ -1,10 +1,11 @@
 import './globals.css';
 
 import type { Metadata } from 'next';
-import { SessionProvider } from 'next-auth/react';
 import { Geist, Geist_Mono } from 'next/font/google';
+import { SessionProvider } from 'next-auth/react';
 
 import { auth } from '@/auth';
+
 import { ThemeProvider } from './components/dark-mode/theme-provider';
 
 const geistSans = Geist({
