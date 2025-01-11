@@ -1,6 +1,6 @@
-const ROUTES = {
-  HOME: '/',
-  DASHBOARD: '/dashboard',
+export const ROUTES = {
+  BASE: '/',
+  HOME: '/home',
+  TRACKS: '/tracks',
+  ARTISTS: '/artists',
 };
-
-export default ROUTES;
